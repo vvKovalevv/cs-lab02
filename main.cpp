@@ -3,7 +3,7 @@ using namespace std;
 int main ()
 {
     cout << "Enter A and B: " << '\n';
-    int a, b, max;
+    int a, b, max, min;
     cin >> a >> b ;
     cout << "A + B = " << a + b << '\n';
     cout << "A - B = " << a - b << '\n';
@@ -17,6 +17,13 @@ int main ()
     {
         cout<< "max="<<b<<endl;
     }
-
-    return 0;
+ if (a<b)
+    {
+        cout<<"min="<<a<<'/n';
+    }
+    else
+    {
+        cout<< "min="<<b<<endl;
+    }
+     return 0;
 }
